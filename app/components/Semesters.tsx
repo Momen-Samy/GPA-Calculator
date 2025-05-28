@@ -8,7 +8,7 @@ import {
   SemesterContext,
   GradePointType,
   Semestertype,
-} from "../page";
+} from "./MainComponent";
 
 export default function Semesters() {
   const { semester, setSemester } = useContext(SemesterContext);

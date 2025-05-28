@@ -1,7 +1,7 @@
 "use client";
 import { useContext } from "react";
 import styles from "../page.module.css";
-import { GradeContext, GradePointType } from "../page";
+import { GradeContext, GradePointType } from "./MainComponent";
 
 export default function GradePoint() {
   const { gradepoint, setGradePoints } = useContext(
