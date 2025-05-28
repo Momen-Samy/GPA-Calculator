@@ -1,9 +1,5 @@
 import MainComponent from "./components/MainComponent";
 
-export const Home = () => {
-  return (
-    <>
-      <MainComponent />
-    </>
-  );
-};
+export default function Home() {
+  return <MainComponent />;
+}
